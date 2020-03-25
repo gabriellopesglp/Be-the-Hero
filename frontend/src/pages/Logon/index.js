@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FiLogIn } from 'react-icons/fi';
+import { toast } from 'react-toastify';
 
 import api from '../../services/api';
 
@@ -26,7 +27,8 @@ export default function Logon() {
 
       history.push('/profile');
     } catch (err) {
-      alert('Falha no login, tente novamente.');
+      toast.error('Falha no login, tente novamente.', {
+        position: "top-center"});
     }
   }
 

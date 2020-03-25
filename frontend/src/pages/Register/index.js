@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Link, useHistory } from 'react-router-dom';
+import Swal from 'sweetalert2'
+import { toast } from 'react-toastify';
 
 import api from '../../services/api';
 
@@ -31,11 +33,16 @@ export default function Register() {
     try {
       const response = await api.post('ongs', data);
 
-      alert(`Seu ID de acesso: ${response.data.id}`);
+      Swal.fire({
+        icon: 'success',
+        title: `Seu ID de acesso: ${response.data.id}`,
+        text: 'Por favor guarde seu ID de acesso.',
+      })
 
       history.push('/');
     } catch (err) {
-      alert('Erro no cadastro, tente novamente.')
+      toast.error('Erro no cadastro, tente novamente.', {
+        position: "top-center"});
     }
   }
 
