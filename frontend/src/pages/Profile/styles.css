@@ -78,6 +78,7 @@
 
 .profile-container ul li p + strong {
   margin-top: 32px;
+  word-wrap: break-word;
 }
 
 .profile-container ul li p {
