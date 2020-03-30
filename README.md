@@ -6,13 +6,18 @@ Projeto da Semana OmniStack 11 da [RocketSeat]([https://rocketseat.com.br/](http
 O Front-End da aplicação serve para as ONGs se cadastrarem e manusearem seus casos.
 
 ### Cadastro e Login:
-![cadastro](https://media.giphy.com/media/JUdwoxihkfMnxP0U1y/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/JUdwoxihkfMnxP0U1y/giphy.gif">
+</p>
 
 ### Cadastro de casos e lista de casos cadastrados:
-![casos](https://media.giphy.com/media/UuNv06GU3KkpIb8uGh/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/UuNv06GU3KkpIb8uGh/giphy.gif">
+</p>
 
 ## Mobile
 O Mobile da aplicação é para o "herói", para as pessoas que querem ajudar as ONGs. Pode ter uma visão de todos os casos e após escolher um, poderá enviar um e-mail ou uma mesagem no Whatsapp pré configurada.
 
-
-![mobile](https://media.giphy.com/media/ZEBOHoN2BROrwZqbhr/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/LqCLUEyGvJv1iFPjRb/giphy.gif">
+</p>
