@@ -23,7 +23,7 @@ routes.post('/ongs', celebrate({
 
 routes.get('/profile', celebrate({
   [Segments.HEADERS]: Joi.object({
-    authorization: Joi.string().requiredy(),
+    authorization: Joi.string().required(),
   }).unknown()
 }), ProfileController.index);
 
