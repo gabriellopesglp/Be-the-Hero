@@ -1,6 +1,6 @@
 
 # Be the Hero
-Projeto da Semana OmniStack 11 da [RocketSeat]([https://rocketseat.com.br/](https://rocketseat.com.br/)). Se trata de um projeto em que as ONGs possam se cadastrar e postar seus casos para que ajudadores possam acha-los com facilidade e poder ajudar as ONGs.
+Projeto da Semana OmniStack 11 da [RocketSeat](https://rocketseat.com.br/). Se trata de um projeto em que as ONGs possam se cadastrar e postar seus casos para que ajudadores possam acha-los com facilidade e poder ajudar as ONGs.
 
 ## Front-End
 O Front-End da aplicação serve para as ONGs se cadastrarem e manusearem seus casos.
